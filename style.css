@@ -42,6 +42,11 @@ nav {
   transform: translate(-50%, -50%); 
 }
 
+.pludmale {
+  width: 100%;               
+  display: block;
+}
+
 #Jaunumi {
   color: white;
   font-size: 36px;
@@ -65,32 +70,6 @@ nav {
   top: -81px;
 }
 
-.Galamerki {
-  color: white;
-  font-family: "Poppins", sans-serif; 
-  
-}
-
-.Atlaides {
-  color: white;
-  font-family: "Poppins", sans-serif; 
-}
-
-.Marsruts {
-  color: white;
-  font-family: "Poppins", sans-serif; 
-}
-
-.Foto {
-  color: white;
-  font-family: "Poppins", sans-serif; 
-}
-
-.Konkursi {
-  color: white;
-  font-family: "Poppins", sans-serif; 
-}
-
 footer {
   background-color: white;
   color: #0A85ED;
@@ -99,12 +78,115 @@ footer {
   font-size: 13px;
 }
 
+
+.box {
+  color: white;
+  font-family: "Poppins", sans-serif; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;      /* Ja ekrāns mazs, pāries uz nākamo rindu */
+  gap: 20px;            /* Starp konteineriem */
+  justify-content: space-around;
+}
+
+.box {
+  width: 60%;
+  max-width: 500px;
+  max-height: 350px;
+  padding: 12px;
+  border: 2px solid white;   
+  border-radius: 35px;      
+  background-color: transparent;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.box2 {
+  color: white;
+  font-family: "Poppins", sans-serif; 
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 20px;           
+  justify-content: space-around;
+}
+
+.box2 {
+  width: 60%;
+  max-width: 500px;
+  max-height: 350px;
+  padding: 12px;
+  border: 2px solid white;   
+  border-radius: 35px;      
+  background-color: transparent;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+
+
+/*Piedāvāumu lapa*/
+
 #Manarola {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
 
+#Londona {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#Hallstate {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#Parize {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#Taito {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#Barselona {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#Santorini{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#Grimenca {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#Bergena {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
 .Manarola {
   color: white;
   font-family: "Poppins", sans-serif;
