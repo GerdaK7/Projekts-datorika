@@ -2,3 +2,155 @@ html {
   height: 100%;
   width: 100%;
 }
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #184E77;
+}
+
+nav {
+  background-color: white;
+  height: 75px;
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav a{
+  color: #0A85ED;
+  text-decoration: none;
+}
+
+.logo img {
+  position: absolute;
+  left: 10%;
+  top: 4,5%;
+  transform: translate(-50%, -50%); 
+}
+
+#Jaunumi {
+  color: white;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.line1 {
+  width: 300px;
+  margin: 20px;
+  position: relative;
+  top: -81px;
+}
+
+.line2 {
+  width: 300px;
+  margin: 20px;
+  position: relative;
+  top: -81px;
+}
+
+.Galamerki {
+  color: white;
+  font-family: "Poppins", sans-serif; 
+  
+}
+
+.Atlaides {
+  color: white;
+  font-family: "Poppins", sans-serif; 
+}
+
+.Marsruts {
+  color: white;
+  font-family: "Poppins", sans-serif; 
+}
+
+.Foto {
+  color: white;
+  font-family: "Poppins", sans-serif; 
+}
+
+.Konkursi {
+  color: white;
+  font-family: "Poppins", sans-serif; 
+}
+
+footer {
+  background-color: white;
+  color: #0A85ED;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#Manarola {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.Manarola {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Londona {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Hallstate {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Parize {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Taito {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Barselona {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Santorini {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Grimenca {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Bergena {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-weight: bold;
+}
+
