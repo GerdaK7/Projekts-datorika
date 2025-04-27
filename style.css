@@ -42,14 +42,32 @@ nav {
   transform: translate(-50%, -50%); 
 }
 
+.logo2 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  filter: brightness(0) invert(1);
+  width: 300px;
+}
+
 .pludmale {
-  width: 100%;               
+  width: 1000;               
   display: block;
+}
+
+footer {
+  background-color: white;
+  color: #0A85ED;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  bottom: 0; /* Always at the bottom */
+  width: 100%;
 }
 
 #Jaunumi {
   color: white;
-  font-size: 36px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -70,15 +88,6 @@ nav {
   top: -81px;
 }
 
-footer {
-  background-color: white;
-  color: #0A85ED;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-
 .box {
   color: white;
   font-family: "Poppins", sans-serif; 
@@ -86,9 +95,9 @@ footer {
 
 .row {
   display: flex;
-  flex-wrap: wrap;      /* Ja ekrāns mazs, pāries uz nākamo rindu */
-  gap: 20px;            /* Starp konteineriem */
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 .box {
@@ -110,10 +119,10 @@ footer {
 }
 
 .row2 {
+
+  flex-wrap: wrap;               
+  justify-content: space-between;
   display: flex;
-  flex-wrap: wrap;      
-  gap: 20px;           
-  justify-content: space-around;
 }
 
 .box2 {
@@ -130,9 +139,170 @@ footer {
 }
 
 
+/*Piedāvājumu lapa*/
 
+.bilde1{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
 
-/*Piedāvāumu lapa*/
+.bilde1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde2{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde3{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde4{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde5{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde5 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde6{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde6 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde7{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde7 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde8{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde8 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
+
+.bilde9{
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  border: 4px solid white; 
+  border-radius: 120px; 
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bilde9 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 90px;
+}
 
 #Manarola {
   color: white;
@@ -235,4 +405,3 @@ footer {
 h4 {
   font-weight: bold;
 }
-
