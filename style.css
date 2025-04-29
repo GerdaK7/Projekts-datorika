@@ -18,7 +18,7 @@ nav {
   display: flex;
   align-items: center;     
   justify-content: center; 
-  font-size: 21px;
+  font-size: 26px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   
@@ -37,7 +37,7 @@ nav {
 
 .logo img {
   position: absolute;
-  left: 10%;
+  left: 18%;
   top: 4,5%;
   transform: translate(-50%, -50%); 
 }
@@ -541,6 +541,50 @@ input[type="submit"] {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 13px;
-  bottom: 0; /* Always at the bottom */
+  bottom: 0;
   width: 100%;
+}
+
+/*Menu*/
+.navbar {
+  background-color:white;
+  padding: 10px;
+  color: white;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  color: #0A85ED;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left:4%;
+  top: 11px;
+}
+
+.vertical-menu {
+  display: none;
+  background-color: #f1f1f1;
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.vertical-menu a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+.vertical-menu a:hover {
+  background-color: #ddd;
 }
