@@ -1,6 +1,6 @@
   document.addEventListener('DOMContentLoaded', function() {
     // Define the toggleMenu function
-    function toggleMenu(4) {
+    function toggleMenu() {
       const menu = document.getElementById('menu');
       // Check if the menu is visible
       if (menu.style.left === '0px') {
