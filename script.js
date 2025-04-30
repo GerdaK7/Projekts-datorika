@@ -1,18 +1,9 @@
-  document.addEventListener('DOMContentLoaded', function() {
-    // Define the toggleMenu function
-    function toggleMenu() {
-      const menu = document.getElementById('menu');
-      // Check if the menu is visible
-      if (menu.style.left === '0px') {
-        // Hide the menu
-        menu.style.left = '-250px';
-      } else {
-        // Show the menu
-        menu.style.left = '0px';
-      }
-    }
+const img = document.getElementById('interactive-img');
 
-    // Attach the toggleMenu function to the button
-    const toggleButton = document.getElementById('toggleButton');
-    toggleButton.addEventListener('click', toggleMenu);
-  });
+img.addEventListener('mouseover', () => {
+  img.style.transform = 'scale(1.2)'; // Zoom in
+});
+
+img.addEventListener('mouseout', () => {
+  img.style.transform = 'scale(1)';   // Zoom out
+});
