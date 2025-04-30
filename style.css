@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background-color: #184E77;
+    background: #184E77; 
 }
 
 nav {
@@ -44,30 +44,27 @@ nav {
 
 .logo2 {
   position: absolute;
-  top: 50px;
-  left: 100px;
+  top: 200px;
+  left: 710px;
   filter: brightness(0) invert(1);
-  width: 300px;
 }
 
 .pludmale {
-  width: 1000;               
-  display: block;
+  display: block; 
+  width: 1905px;  
+  margin-top:0px;
+  object-fit: cover;
 }
 
-.footer1 {
-  background-color: white;
-  color: #0A85ED;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  bottom: 0; /* Always at the bottom */
-  width: 100%;
+.pludmale img{
+  max-width: 100%;
+  max-height: 100%;
 }
+
 
 #Jaunumi {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -75,17 +72,19 @@ nav {
 }
 
 .line1 {
-  width: 300px;
-  margin: 20px;
+  width: 750px;
   position: relative;
   top: -81px;
+  left: 1100px;
+  height: 8px;  
 }
 
 .line2 {
-  width: 300px;
+  width: 750px;
   margin: 20px;
   position: relative;
-  top: -81px;
+  top: -110px;
+  left: 35px;
 }
 
 .box {
@@ -97,6 +96,10 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 40px; 
+  margin-right: 40px;
+  
+  gap: 30px;  
 
 }
 
@@ -113,6 +116,14 @@ nav {
   overflow: hidden;
 }
 
+.box + .box {
+    margin-left: -2px; 
+}
+
+.box2 + .box2 {
+    margin-left: 130px;  
+}
+
 .box2 {
   color: white;
   font-family: "Poppins", sans-serif; 
@@ -121,21 +132,35 @@ nav {
 .row2 {
 
   flex-wrap: wrap;               
-  justify-content: space-between;
+  justify-content: center;
+  border-spacing: 50px;
   display: flex;
+  gap: 30px;
 }
 
 .box2 {
   width: 60%;
   max-width: 500px;
   max-height: 350px;
-  padding: 12px;
   border: 2px solid white;   
   border-radius: 35px;      
   background-color: transparent;
   text-align: center;
   box-sizing: border-box;
   overflow: hidden;
+  padding: 12px;
+}
+
+
+.footer1 {
+  background-color: white;
+  color: #0A85ED;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  bottom: 0;
+  width: 1904px;
+  margin-left: -39px;
 }
 
 
@@ -152,7 +177,6 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 80px;
-  margin: auto;
   padding-top: 50px;
   padding: 20px;
   text-align: center;
@@ -161,36 +185,21 @@ nav {
   width: 90%;           
   max-width: 1400px;     
   height: 90vh;
+  margin-top: 40px;
 }
 
 .bilde1{
-  width: 400px;
-  height: 500px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 50%; 
+  border-radius: 160px; 
   overflow: hidden;
   position: relative;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
 
-.bilde1 {
-  width: 200px;
-  height: 300px;
-  border: 3px solid white;
-  border-radius: 120px;
-  overflow: hidden;
-  background: #eee;
-}
-
-.bilde1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 90px;
-}
 
 .bilde1 img{
   width: 100%;
@@ -208,11 +217,11 @@ nav {
 }
 
 .bilde2{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px; 
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -234,11 +243,11 @@ nav {
 }
 
 .bilde3{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px;  
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -260,11 +269,11 @@ nav {
 }
 
 .bilde4{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px; 
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -286,11 +295,11 @@ nav {
 }
 
 .bilde5{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px;  
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -312,11 +321,11 @@ nav {
 }
 
 .bilde6{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px; 
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -338,11 +347,11 @@ nav {
 }
 
 .bilde7{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px; 
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -364,11 +373,11 @@ nav {
 }
 
 .bilde8{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px; 
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -390,11 +399,11 @@ nav {
 }
 
 .bilde9{
-  width: 200px;
-  height: 300px;
+  width: 330px;
+  height: 480px;
   background-color: transparent;
   border: 4px solid white; 
-  border-radius: 120px; 
+  border-radius: 160px; 
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -416,64 +425,109 @@ nav {
   transform: scale(1.2);
 }
 
+.video{
+  position: absolute;
+  top: 1800px;
+  left: 580px;
+  padding: 40px;
+}
+
 
 
 #Manarola {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 10px;
   font-weight: bold;
+  position: absolute;
+  top: 640px;
+  left: 372px;
 }
 
 #Londona {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 630px;
+  left: 867px;
 }
 
 #Hallstate {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 630px;
+  left: 1364px;
 }
 
 #Parize {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 1195px;
+  left: 385px;
 }
 
 #Taito {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 1195px;
+  left: 887px;
 }
 
 #Barselona {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 1195px;
+  left: 1350px;
 }
 
 #Santorini{
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 1763px;
+  left: 369px;
 }
 
 #Grimenca {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 1763px;
+  left: 860px;
 }
 
 #Bergena {
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 1775px;
+  left: 1357px;
 }
+
+
+
 .Manarola {
   color: white;
   font-family: "Poppins", sans-serif;
@@ -525,17 +579,22 @@ h4 {
 }
 
 .Izcenojums {
-  width: 900px; 
+  width: 1300px; 
   height: 500px; 
   overflow-y: auto;
   padding: 10px;
   border: 2px solid white;
-  margin: 20px auto;   
+  margin: 20px auto;  
+  margin-left: 20px;
   border-radius: 35px;      
   background-color: transparent;
   text-align: center;
   box-sizing: border-box;
   align-items: center;
+  position: absolute;
+  top:2240px;
+  left: 255px;
+
 }
 
 .footer2 {
@@ -544,8 +603,10 @@ h4 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 13px;
-  bottom: 0; /* Always at the bottom */
   width: 100%;
+  position: absolute;
+  top:2800px;
+  left: 0px;
 }
 /*Autorizācija*/
 
